@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
-import SolidCounter from "../components/SolidCounter/SolidCounter";
+import SolidCounter from "../contexts/Array/SolidCounter/SolidCounter";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -63,6 +63,7 @@ import SolidCounter from "../components/SolidCounter/SolidCounter";
       />
     </ul>
     <SolidCounter client:only="solid-js" />
+    <a href="/about">ABOUT PAGE</a>
   </main>
 </Layout>
 
