@@ -6,5 +6,4 @@ export default defineConfig({
   integrations: [solidJs()],
   site: "https://mecamon.github.io",
   base: "/astro-lab",
-  output: "hybrid",
 });
